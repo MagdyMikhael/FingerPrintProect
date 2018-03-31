@@ -1,0 +1,63 @@
+[DEVICE]
+Name=P16F877A
+Clock=8000000
+[MEMORY_MODEL]
+Value=-1
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=FingerPrintSensorProject.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=2
+File0=FingerPrintSensorProject.c
+File1=UART.C
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=5
+File0=FingerPrintSensorProject.c
+File1=UART.h
+File2=UART.C
+File3=common.h
+File4=type.h
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\
+Path2=E:\Embedded Systems Projects\FingerPrintProject\
+[HEADER_PATH]
+Count=1
+Path0=E:\Embedded Systems Projects\FingerPrintProject\
+[HEADERS]
+Count=4
+File0=UART.h
+File1=type.h
+File2=utilites.h
+File3=common.h
+[PLDS]
+Count=0
+[Useses]
+Count=2
+File0=Lcd
+File1=Lcd_Constants
+[EXPANDED NODES]
+Node1=Sources
+Node2=Header Files
+Count=2

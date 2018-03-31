@@ -1,0 +1,26 @@
+main
+	__CC2DW
+		____DoICP
+	Uart_init
+		Div_32x32_S
+			SDIV3232L
+			COMFREM
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	Uart_Write_String
+		____DoICP
+		Uart_Transmit
+	Uart_Read_String
+	Lcd_Out
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+		Lcd_Chr_CP
+			Lcd_Cmd
+				Delay_1us
+				Delay_5500us
+				Delay_50us
+interrupt
+	Uart_Receive
